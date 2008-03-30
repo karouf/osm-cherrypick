@@ -12,7 +12,7 @@ output = "/home/kara/dev/osm-cherrypick/sample-data/cherrypicked.osm"
 
 # Get the features to pick and parse it
 # Put the result in an array, one feature per row
-features = [ "kufhv:railway=station",
+features = [ "node:railway=station",
 				"way:railway=subway"]
 
 # Open OSM file
@@ -30,15 +30,34 @@ for feature in features do
 	type, tag = feature.split(":")
 	key, value = tag.split("=")
 	
-	if type != "node" && type != "way" && type != "relation"
-		puts "Wrong type of object: #{feature}"
-	else
-	
+	case type
+	when "node"
 		# Get the feature from the file
-		input_doc.root.each_element("#{type}/tag[@k='#{key}' and @v='#{value}']/..") {|object|
+		input_doc.root.each_element("#{type}/tag[@k='#{key}' and @v='#{value}']/..") {|node|
 			# Add the feature to the output doc
-			output_doc.root.add_element(object)
+			output_doc.root.add_element(node)
 		}
+	when "way"
+		#puts "Ways are not supported yet!"
+		# Get the feature from the file
+		input_doc.root.each_element("#{type}/tag[@k='#{key}' and @v='#{value}']/..") {|way|
+			puts "Way id: #{way.attributes['id']}"
+			# Add the feature to the output doc
+			way.each_element("nd") {|node|
+				puts "Node ref in way: #{node.attributes['ref']}"
+				# Get the feature from the file
+				input_doc.root.each_element("node[@id='#{node.attributes['ref']}']") {|the_node|
+					puts "Node id: #{the_node.attributes['id']}"
+					# Add the feature to the output doc
+					output_doc.root.add_element(the_node)
+				}
+			}
+			output_doc.root.add_element(way)
+		}
+	when "relation"
+		puts "Relations are not supported yet!"
+	else
+		puts "Wrong type of object: #{feature}"
 	end
 end
 #

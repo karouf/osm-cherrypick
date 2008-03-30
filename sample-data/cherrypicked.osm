@@ -1,5 +1,93 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.5' generator='osm-cherrypick'>
+  <node timestamp='2008-01-26T15:00:20+00:00' user='Utilisateur anonyme' visible='true' lon='2.4192642' id='243487863' lat='48.8462787'>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Saint-Mandé — Tourelle'/>
+  </node>
+  <node timestamp='2008-01-26T15:32:57+00:00' user='Utilisateur anonyme' visible='true' lon='2.377087' id='243493845' lat='48.8719269'>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Belleville'/>
+  </node>
+  <node timestamp='2008-01-26T15:32:57+00:00' user='Utilisateur anonyme' visible='true' lon='2.3800138' id='243493846' lat='48.8694937'>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Couronnes'/>
+  </node>
+  <node timestamp='2008-01-22T15:10:21+00:00' user='Utilisateur anonyme' visible='true' lon='2.439954' id='241928757' lat='48.8443086'>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Château de Vincennes'/>
+  </node>
+  <node timestamp='2008-01-22T15:10:21+00:00' user='Utilisateur anonyme' visible='true' lon='2.4286158' id='241928758' lat='48.8454327'>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Bérault'/>
+  </node>
+  <node timestamp='2008-01-25T23:37:23+00:00' user='Utilisateur anonyme' visible='true' lon='2.3850854' id='243357308' lat='48.873834'>
+    <tag k='created_by' v='Potlatch 0.6c'/>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Pyrénées'/>
+  </node>
+  <node timestamp='2008-01-26T15:38:19+00:00' user='Utilisateur anonyme' visible='true' lon='2.3702978' id='243494334' lat='48.8815572'>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Jaurès'/>
+  </node>
+  <node timestamp='2008-01-26T15:15:51+00:00' user='Utilisateur anonyme' visible='true' lon='2.3909487' id='243490763' lat='48.8579976'>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Philippe Auguste'/>
+  </node>
+  <node timestamp='2008-01-26T15:16:33+00:00' user='Utilisateur anonyme' visible='true' lon='2.3835329' id='243490761' lat='48.8662981'>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Ménilmontant'/>
+  </node>
+  <node timestamp='2008-01-26T15:15:51+00:00' user='Utilisateur anonyme' visible='true' lon='2.3945621' id='243490764' lat='48.856264'>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Alexandre Dumas'/>
+  </node>
+  <node timestamp='2008-01-26T14:55:57+00:00' user='Utilisateur anonyme' visible='true' lon='2.3958582' id='241928557' lat='48.848216'>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Nation'/>
+  </node>
+  <node timestamp='2007-12-06T22:13:10+00:00' user='STA' visible='true' lon='2.3725458' id='27371889' lat='48.8457569'>
+    <tag k='created_by' v='JOSM'/>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Gare de Lyon'/>
+  </node>
+  <node timestamp='2007-10-11T23:24:32+01:00' user='lluc' visible='true' lon='2.3861116' id='27371892' lat='48.8473466'>
+    <tag k='created_by' v='JOSM'/>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Reuilly - Diderot'/>
+  </node>
+  <node timestamp='2007-10-11T23:26:21+01:00' user='lluc' visible='true' lon='2.4071864' id='27371900' lat='48.8475363'>
+    <tag k='created_by' v='JOSM'/>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Porte de Vincennes'/>
+  </node>
+  <node timestamp='2008-01-26T15:15:51+00:00' user='Utilisateur anonyme' visible='true' lon='2.3982271' id='243489718' lat='48.8514805'>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Avron'/>
+  </node>
+  <node timestamp='2008-03-09T19:10:37+00:00' user='Patrice' visible='true' lon='2.3706862' id='243493916' lat='48.8775869'>
+    <tag k='railway' v='station'/>
+    <tag k='name' v='Colonel Fabien'/>
+  </node>
+  <node timestamp='2007-10-11T23:24:32+01:00' user='lluc' visible='true' lon='2.3793464' id='65283943' lat='48.8465697'/>
+  <node timestamp='2007-10-11T23:26:21+01:00' user='lluc' visible='true' lon='2.3817154' id='65286346' lat='48.8468465'/>
+  <node timestamp='2007-04-14T19:23:38+01:00' visible='true' lon='2.3954913' id='27371893' lat='48.8483282'>
+    <tag k='created_by' v='JOSM'/>
+  </node>
+  <node timestamp='2008-01-26T15:10:09+00:00' user='Utilisateur anonyme' visible='true' lon='2.3958324' id='27371895' lat='48.8483572'/>
+  <node timestamp='2007-04-14T19:23:39+01:00' visible='true' lon='2.3962568' id='27371896' lat='48.8483948'>
+    <tag k='created_by' v='JOSM'/>
+  </node>
+  <node timestamp='2007-04-14T19:23:39+01:00' visible='true' lon='2.3970054' id='27371897' lat='48.8484511'>
+    <tag k='created_by' v='JOSM'/>
+  </node>
+  <node timestamp='2007-10-11T23:26:21+01:00' user='lluc' visible='true' lon='2.3982673' id='27371898' lat='48.8483315'>
+    <tag k='created_by' v='JOSM'/>
+  </node>
+  <node timestamp='2008-02-14T06:49:01+00:00' user='andrewpmk' visible='true' lon='2.4172764' id='247533112' lat='48.8465051'/>
+  <node timestamp='2008-01-26T15:00:20+00:00' user='Utilisateur anonyme' visible='true' lon='2.417436' id='243488341' lat='48.846482'/>
+  <node timestamp='2008-01-26T15:00:20+00:00' user='Utilisateur anonyme' visible='true' lon='2.4205517' id='243488342' lat='48.84616'/>
+  <node timestamp='2008-01-26T14:59:27+00:00' user='Utilisateur anonyme' visible='true' lon='2.4248947' id='241929016' lat='48.8457647'/>
+  <node timestamp='2008-01-28T22:35:11+00:00' user='Utilisateur anonyme' visible='true' lon='2.4306801' id='243896249' lat='48.8452432'/>
   <way timestamp='2008-02-14T06:49:01+00:00' user='andrewpmk' visible='true' id='14038567'>
     <nd ref='27371889'/>
     <nd ref='65283943'/>
@@ -26,6 +114,20 @@
     <tag k='operator' v='Régie Autonome des Transports Parisiens'/>
     <tag k='tunnel' v='yes'/>
   </way>
+  <node timestamp='2008-01-26T15:38:19+00:00' user='Utilisateur anonyme' visible='true' lon='2.3683237' id='235377791' lat='48.8840858'/>
+  <node timestamp='2008-01-26T15:36:48+00:00' user='Utilisateur anonyme' visible='true' lon='2.3686413' id='243494172' lat='48.8839898'/>
+  <node timestamp='2008-01-26T15:36:48+00:00' user='Utilisateur anonyme' visible='true' lon='2.3688215' id='243494173' lat='48.8838713'/>
+  <node timestamp='2008-01-26T15:36:48+00:00' user='Utilisateur anonyme' visible='true' lon='2.3689331' id='243494174' lat='48.8837415'/>
+  <node timestamp='2008-01-26T15:36:48+00:00' user='Utilisateur anonyme' visible='true' lon='2.3690704' id='243494175' lat='48.8835383'/>
+  <node timestamp='2008-01-26T15:36:48+00:00' user='Utilisateur anonyme' visible='true' lon='2.3692507' id='243494176' lat='48.8833182'/>
+  <node timestamp='2008-01-26T15:36:48+00:00' user='Utilisateur anonyme' visible='true' lon='2.3694996' id='243494177' lat='48.8831432'/>
+  <node timestamp='2008-01-26T15:36:48+00:00' user='Utilisateur anonyme' visible='true' lon='2.3697141' id='243494178' lat='48.8830078'/>
+  <node timestamp='2008-01-26T15:36:48+00:00' user='Utilisateur anonyme' visible='true' lon='2.370006' id='243494179' lat='48.882861'/>
+  <node timestamp='2008-01-26T15:36:48+00:00' user='Utilisateur anonyme' visible='true' lon='2.3701519' id='243494180' lat='48.8827255'/>
+  <node timestamp='2008-01-26T15:36:48+00:00' user='Utilisateur anonyme' visible='true' lon='2.370272' id='243494181' lat='48.8824998'/>
+  <node timestamp='2008-01-26T15:36:48+00:00' user='Utilisateur anonyme' visible='true' lon='2.3702978' id='243494182' lat='48.8823079'/>
+  <node timestamp='2008-01-26T15:36:48+00:00' user='Utilisateur anonyme' visible='true' lon='2.3703407' id='243494183' lat='48.8785091'/>
+  <node timestamp='2008-01-26T17:34:19+00:00' user='Utilisateur anonyme' visible='true' lon='2.3874417' id='243490762' lat='48.8628183'/>
   <way timestamp='2008-03-09T19:10:37+00:00' user='Patrice' visible='true' id='22699439'>
     <nd ref='235377791'/>
     <nd ref='243494172'/>
