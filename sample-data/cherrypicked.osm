@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.5' generator='osm-cherrypick'>
+  <way timestamp='2008-02-14T06:49:01+00:00' user='andrewpmk' visible='true' id='14038567'>
+    <nd ref='27371889'/>
+    <nd ref='65283943'/>
+    <nd ref='65286346'/>
+    <nd ref='27371892'/>
+    <nd ref='27371893'/>
+    <nd ref='27371895'/>
+    <nd ref='27371896'/>
+    <nd ref='27371897'/>
+    <nd ref='27371898'/>
+    <nd ref='27371900'/>
+    <nd ref='247533112'/>
+    <nd ref='243488341'/>
+    <nd ref='243487863'/>
+    <nd ref='243488342'/>
+    <nd ref='241929016'/>
+    <nd ref='241928758'/>
+    <nd ref='243896249'/>
+    <nd ref='241928757'/>
+    <tag k='created_by' v='Potlatch 0.7a'/>
+    <tag k='railway' v='subway'/>
+    <tag k='name' v='Métro 1'/>
+    <tag k='layer' v='-2'/>
+    <tag k='operator' v='Régie Autonome des Transports Parisiens'/>
+    <tag k='tunnel' v='yes'/>
+  </way>
+  <way timestamp='2008-03-09T19:10:37+00:00' user='Patrice' visible='true' id='22699439'>
+    <nd ref='235377791'/>
+    <nd ref='243494172'/>
+    <nd ref='243494173'/>
+    <nd ref='243494174'/>
+    <nd ref='243494175'/>
+    <nd ref='243494176'/>
+    <nd ref='243494177'/>
+    <nd ref='243494178'/>
+    <nd ref='243494179'/>
+    <nd ref='243494180'/>
+    <nd ref='243494181'/>
+    <nd ref='243494182'/>
+    <nd ref='243494334'/>
+    <nd ref='243494183'/>
+    <nd ref='243493916'/>
+    <nd ref='243493845'/>
+    <nd ref='243493846'/>
+    <nd ref='243490761'/>
+    <nd ref='243490762'/>
+    <nd ref='243490763'/>
+    <nd ref='243490764'/>
+    <nd ref='243489718'/>
+    <nd ref='27371895'/>
+    <tag k='history' v='Retrieved from v9'/>
+    <tag k='created_by' v='Potlatch 0.7b'/>
+    <tag k='railway' v='subway'/>
+    <tag k='name' v='Métro 2'/>
+    <tag k='layer' v='-1'/>
+    <tag k='operator' v='Régie Autonome des Transports Parisiens'/>
+    <tag k='tunnel' v='yes'/>
+  </way>
+</osm>

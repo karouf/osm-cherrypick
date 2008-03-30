@@ -1,0 +1,49 @@
+#!/usr/bin/ruby
+
+require 'rexml/document'
+include REXML
+
+
+# Get the OSM file
+input = "/home/kara/dev/osm-cherrypick/sample-data/subway.osm"
+
+# Get the output file
+output = "/home/kara/dev/osm-cherrypick/sample-data/cherrypicked.osm"
+
+# Get the features to pick and parse it
+# Put the result in an array, one feature per row
+features = [ "kufhv:railway=station",
+				"way:railway=subway"]
+
+# Open OSM file
+input_doc = Document.new(File.new(input))
+
+
+# Create new XML doc for output
+output_doc = Document.new
+output_doc << input_doc.xml_decl
+output_doc << Element.new(input_doc.root)
+output_doc.root.add_attributes( { "generator" => "osm-cherrypick" } )
+
+# For each feature
+for feature in features do
+	type, tag = feature.split(":")
+	key, value = tag.split("=")
+	
+	if type != "node" && type != "way" && type != "relation"
+		puts "Wrong type of object: #{feature}"
+	else
+	
+		# Get the feature from the file
+		input_doc.root.each_element("#{type}/tag[@k='#{key}' and @v='#{value}']/..") {|object|
+			# Add the feature to the output doc
+			output_doc.root.add_element(object)
+		}
+	end
+end
+#
+
+# Write XML doc to the output file
+File.open( output, "w" ) { |f|
+      output_doc.write( f, 0, false)
+    }
