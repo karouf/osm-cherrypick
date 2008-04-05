@@ -1,0 +1,24 @@
+osm-cherrypick
+    by Renaud Martinet
+ 
+== Description:
+  
+A simple filter for extracting specific data from OSM files.
+ 
+== Usage
+  
+    osm-cherrypick input_file output_file filter1 filter2 ...
+
+    Filters look like that: type_of_object:key=value
+    
+    Examples: node:amenity=postbox way:railway=subway relation:highway=motorway
+ 
+== Install:
+ 
+    Just put the script wherever you like and make it executable. 
+ 
+== License:
+ 
+(to be decided)
+ 
+Copyright (c) 2008 Renaud Martinet
