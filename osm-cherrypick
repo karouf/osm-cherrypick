@@ -3,17 +3,31 @@
 require 'rexml/document'
 include REXML
 
+# Get arguments from the command line
 
 # Get the OSM file
-input = "/home/kara/dev/osm-cherrypick/sample-data/subway.osm"
+input = ARGV.shift
+if input.nil?
+	puts "Input file: argument required."
+	exit
+end
+unless File.exists?(input)
+	puts "Input file doesn't exist."
+	exit
+end
+
 
 # Get the output file
-output = "/home/kara/dev/osm-cherrypick/sample-data/cherrypicked.osm"
+output = ARGV.shift
+if output.nil?
+	puts "Output file: argument required."
+	exit
+end
+
 
 # Get the features to pick and parse it
 # Put the result in an array, one feature per row
-features = [ "node:railway=station",
-				"way:railway=subway"]
+features = ARGV
 
 # Open OSM file
 input_doc = Document.new(File.new(input))
