@@ -1,0 +1,71 @@
+#!/usr/bin/ruby
+
+require 'optparse'
+require 'rubygems'
+require 'xml/libxml'
+include XML
+
+# Get the OSM file
+input = "/home/kara/dev/osm-cherrypick/sample-data/subway.osm"
+
+# Get the output file
+output = "/home/kara/dev/osm-cherrypick/sample-data/cherrypicked.osm"
+
+# Get the features to pick and parse it
+# Put the result in an array, one feature per row
+features = [ "way:railway=subway"]
+
+# Open OSM file
+input_doc = Document.file(input)
+
+
+# Create new XML doc for output
+output_doc = Document.new
+#output_doc << input_doc.xml_decl
+#output_doc.root = input_doc.root
+#output_doc.root['generator'] = "osm-cherrypick"
+output_doc.root = Node.new('osm')
+output_doc.root['version'] = '0.5'
+output_doc.root['generator'] = 'osm-cherrypick'
+
+# For each feature
+for feature in features do
+	type, tag = feature.split(":")
+	key, value = tag.split("=")
+	
+	case type
+	when "node"
+		# Get the feature from the file
+		input_doc.find("/osm/#{type}/tag[@k='#{key}' and @v='#{value}']/..").each do |node|
+			# Add the feature to the output doc
+			output_doc.root.child_add(node)
+			#puts "Node id: #{node['id']}"
+		end
+	when "way"
+		#puts "Ways are not supported yet!"
+		# Get the feature from the file
+		input_doc.find("#{type}/tag[@k='#{key}' and @v='#{value}']/..").each do |way|
+			#puts "Way id: #{way['id']}"
+			# Add the feature to the output doc
+			way.find("nd").each do |node|
+				#puts "Node ref in way: #{node['ref']}"
+				# Get the feature from the file
+				input_doc.find("node[@id='#{node['ref']}']").each do |the_node|
+					#puts "Node id: #{the_node['id']}"
+					# Add the feature to the output doc
+					output_doc.root.child_add(the_node)
+				end
+			end
+			output_doc.root.child_add(way)
+		end
+	when "relation"
+		puts "Relations are not supported yet!"
+	else
+		puts "Wrong type of object: #{feature}"
+	end
+end
+#
+
+# Write XML doc to the output file
+format = true
+output_doc.save(output, format)

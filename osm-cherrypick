@@ -5,7 +5,7 @@ require 'xml/libxml'
 include XML
 
 # Get the OSM file
-input = "/home/kara/dev/osm-cherrypick/sample-data/subway2.osm"
+input = "/home/kara/dev/osm-cherrypick/sample-data/subway.osm"
 
 # Get the output file
 output = "/home/kara/dev/osm-cherrypick/sample-data/cherrypicked.osm"

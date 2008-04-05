@@ -71,8 +71,8 @@
     <nd ref="243490764"/>
     <nd ref="243489718"/>
     <nd ref="27371895"/>
-    <tag k="created_by" v="Potlatch 0.7b"/>
     <tag k="history" v="Retrieved from v9"/>
+    <tag k="created_by" v="Potlatch 0.7b"/>
     <tag k="railway" v="subway"/>
     <tag k="name" v="M&#xE9;tro 2"/>
     <tag k="layer" v="-1"/>
@@ -585,7 +585,11 @@
     <tag k="railway" v="station"/>
     <tag k="name" v="Porte de Champerret"/>
   </node>
-  <way id="22700887" timestamp="2008-01-28T15:21:40+00:00" user="axel584" visible="true">
+  <node id="255000799" timestamp="2008-03-30T22:00:36+01:00" user="byplane" visible="true" lat="48.8921077" lon="2.2852229">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Anatole France"/>
+  </node>
+  <way id="22700887" timestamp="2008-03-30T22:00:36+01:00" user="byplane" visible="true">
     <nd ref="243507233"/>
     <nd ref="243507234"/>
     <nd ref="243507235"/>
@@ -609,7 +613,8 @@
     <nd ref="243510679"/>
     <nd ref="243510680"/>
     <nd ref="243510681"/>
-    <tag k="created_by" v="Potlatch 0.6c"/>
+    <nd ref="255000799"/>
+    <tag k="created_by" v="Potlatch 0.8a"/>
     <tag k="ref" v="3"/>
     <tag k="railway" v="subway"/>
     <tag k="name" v="M&#xE9;tro 3"/>
@@ -864,5 +869,394 @@
     <tag k="name" v="M&#xE9;tro 6"/>
     <tag k="layer" v="1"/>
     <tag k="operator" v="R&#xE9;gie Autonome des Transports Parisiens"/>
+  </way>
+  <node id="27362239" timestamp="2007-10-11T23:24:32+01:00" user="lluc" visible="true" lat="48.8781189" lon="2.2815392">
+    <tag k="created_by" v="JOSM"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Porte Maillot"/>
+    <tag k="layer" v="3"/>
+  </node>
+  <node id="27362240" timestamp="2007-10-11T23:24:32+01:00" user="lluc" visible="true" lat="48.8752977" lon="2.2906087">
+    <tag k="created_by" v="JOSM"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Argentine"/>
+  </node>
+  <node id="27362241" timestamp="2007-04-14T13:53:35+01:00" visible="true" lat="48.8744151" lon="2.2934388">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <way id="14163943" timestamp="2008-01-27T02:52:28+00:00" user="andrewpmk" visible="true">
+    <nd ref="27362239"/>
+    <nd ref="27362240"/>
+    <nd ref="27362241"/>
+    <tag k="created_by" v="Potlatch 0.6a"/>
+    <tag k="railway" v="subway"/>
+    <tag k="name" v="M&#xE9;tro 1"/>
+    <tag k="layer" v="-2"/>
+    <tag k="operator" v="R&#xE9;gie Autonome des Transports Parisiens"/>
+    <tag k="tunnel" v="yes"/>
+  </way>
+  <node id="132560456" timestamp="2007-11-25T16:16:32+00:00" user="Skywave" visible="true" lat="48.8841943" lon="2.3563226">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="19405775" timestamp="2007-01-11T18:48:01+00:00" user="jos&#xE9;m" visible="true" lat="48.8840873" lon="2.3548435">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="19405769" timestamp="2008-01-26T15:44:00+00:00" user="Utilisateur anonyme" visible="true" lat="48.8837979" lon="2.351355">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="19405767" timestamp="2008-01-26T15:44:00+00:00" user="Utilisateur anonyme" visible="true" lat="48.8837471" lon="2.3504108">
+    <tag k="created_by" v="JOSM"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Barb&#xE8;s - Rochechouart"/>
+  </node>
+  <node id="254336761" timestamp="2008-03-27T20:34:23+00:00" user="Mark Jaroski" visible="true" lat="48.8836859" lon="2.3496188">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="243494914" timestamp="2008-01-26T15:44:00+00:00" user="Utilisateur anonyme" visible="true" lat="48.8836568" lon="2.3493208"/>
+  <node id="19405766" timestamp="2008-01-26T15:44:00+00:00" user="Utilisateur anonyme" visible="true" lat="48.8834029" lon="2.3473467">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <way id="13988842" timestamp="2008-03-27T20:34:32+00:00" user="Mark Jaroski" visible="true">
+    <nd ref="132560456"/>
+    <nd ref="19405775"/>
+    <nd ref="19405769"/>
+    <nd ref="19405767"/>
+    <nd ref="254336761"/>
+    <nd ref="243494914"/>
+    <nd ref="19405766"/>
+    <tag k="created_by" v="Potlatch 0.6c"/>
+    <tag k="railway" v="subway"/>
+    <tag k="name" v="M&#xE9;tro 2"/>
+    <tag k="layer" v="-2"/>
+    <tag k="operator" v="R&#xE9;gie Autonome des Transports Parisiens"/>
+    <tag k="tunnel" v="yes"/>
+  </way>
+  <node id="132560459" timestamp="2007-11-25T16:16:32+00:00" user="Skywave" visible="true" lat="48.8843342" lon="2.3585241">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="132560456" timestamp="2007-11-25T16:16:32+00:00" user="Skywave" visible="true" lat="48.8841943" lon="2.3563226">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <way id="13988839" timestamp="2008-01-27T02:52:28+00:00" user="andrewpmk" visible="true">
+    <nd ref="132560459"/>
+    <nd ref="132560456"/>
+    <tag k="created_by" v="Potlatch alpha"/>
+    <tag k="railway" v="subway"/>
+    <tag k="name" v="M&#xE9;tro 2"/>
+    <tag k="layer" v="2"/>
+    <tag k="bridge" v="true"/>
+    <tag k="operator" v="R&#xE9;gie Autonome des Transports Parisiens"/>
+  </way>
+  <node id="244113420" timestamp="2008-01-30T08:47:49+00:00" user="wagner51" visible="true" lat="48.8017418" lon="2.3008151"/>
+  <node id="12388517" timestamp="2008-01-30T08:47:49+00:00" user="wagner51" visible="true" lat="48.8025332" lon="2.3012357">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="244113405" timestamp="2008-01-30T08:47:26+00:00" user="wagner51" visible="true" lat="48.8028894" lon="2.3015189"/>
+  <node id="12388518" timestamp="2008-01-30T08:47:19+00:00" user="wagner51" visible="true" lat="48.8040031" lon="2.302094">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388519" timestamp="2008-01-30T08:47:19+00:00" user="wagner51" visible="true" lat="48.8050884" lon="2.3025832">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388520" timestamp="2008-01-30T08:47:19+00:00" user="wagner51" visible="true" lat="48.8064734" lon="2.3029523">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388521" timestamp="2008-01-30T08:47:19+00:00" user="wagner51" visible="true" lat="48.8074344" lon="2.3030124">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388523" timestamp="2008-01-30T08:47:19+00:00" user="wagner51" visible="true" lat="48.8083162" lon="2.3029352">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388526" timestamp="2008-01-30T08:47:19+00:00" user="wagner51" visible="true" lat="48.8090793" lon="2.3027292">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388527" timestamp="2008-01-30T08:47:19+00:00" user="wagner51" visible="true" lat="48.8100233" lon="2.3022399">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388528" timestamp="2008-01-30T08:47:19+00:00" user="wagner51" visible="true" lat="48.810775" lon="2.3017164">
+    <tag k="created_by" v="JOSM"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Ch&#xE2;tillon-Montrouge"/>
+  </node>
+  <node id="12388529" timestamp="2008-01-30T08:47:19+00:00" user="wagner51" visible="true" lat="48.8117077" lon="2.3008323">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388531" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.8128099" lon="2.2996307">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388533" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.8145959" lon="2.2978196">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388534" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.8152967" lon="2.2970901">
+    <tag k="created_by" v="JOSM"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Malakoff - Rue &#xC9;tienne Dolet"/>
+  </node>
+  <node id="12388535" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.8160767" lon="2.2963691">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388536" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.816721" lon="2.2959142">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388537" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.8172409" lon="2.2956224">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388538" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.8179191" lon="2.2953992">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388539" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.8186934" lon="2.295322">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388540" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.8193376" lon="2.2953992">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388541" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.8197558" lon="2.2955366">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388542" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.8202136" lon="2.2958026">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388543" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.8206092" lon="2.2961803">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="12388544" timestamp="2008-01-30T08:45:42+00:00" user="wagner51" visible="true" lat="48.8215642" lon="2.297339">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <way id="22749966" timestamp="2008-01-30T08:47:49+00:00" user="wagner51" visible="true">
+    <nd ref="244113420"/>
+    <nd ref="12388517"/>
+    <nd ref="244113405"/>
+    <nd ref="12388518"/>
+    <nd ref="12388519"/>
+    <nd ref="12388520"/>
+    <nd ref="12388521"/>
+    <nd ref="12388523"/>
+    <nd ref="12388526"/>
+    <nd ref="12388527"/>
+    <nd ref="12388528"/>
+    <nd ref="12388529"/>
+    <nd ref="12388531"/>
+    <nd ref="12388533"/>
+    <nd ref="12388534"/>
+    <nd ref="12388535"/>
+    <nd ref="12388536"/>
+    <nd ref="12388537"/>
+    <nd ref="12388538"/>
+    <nd ref="12388539"/>
+    <nd ref="12388540"/>
+    <nd ref="12388541"/>
+    <nd ref="12388542"/>
+    <nd ref="12388543"/>
+    <nd ref="12388544"/>
+    <tag k="created_by" v="Potlatch 0.6c"/>
+    <tag k="railway" v="subway"/>
+    <tag k="name" v="Ligne 13"/>
+  </way>
+  <node id="220289387" timestamp="2008-01-12T08:56:52+00:00" user="cantece" visible="true" lat="48.8343107" lon="2.3325719"/>
+  <node id="252861383" timestamp="2008-03-19T11:09:24+00:00" user="Mark Jaroski" visible="true" lat="48.8341971" lon="2.332668">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="252861382" timestamp="2008-03-19T11:09:24+00:00" user="Mark Jaroski" visible="true" lat="48.8341514" lon="2.3327901">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="252861381" timestamp="2008-03-19T11:09:24+00:00" user="Mark Jaroski" visible="true" lat="48.8339828" lon="2.3332078">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="252861380" timestamp="2008-03-19T11:09:24+00:00" user="Mark Jaroski" visible="true" lat="48.8337783" lon="2.3339085">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="235367826" timestamp="2008-01-17T18:12:07+00:00" user="andrewpmk" visible="true" lat="48.8330168" lon="2.3366296"/>
+  <node id="235369898" timestamp="2008-03-28T12:19:58+00:00" user="Kelson" visible="true" lat="48.8328812" lon="2.337136">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Saint-Jacques"/>
+  </node>
+  <node id="235370184" timestamp="2008-03-28T12:17:21+00:00" user="Kelson" visible="true" lat="48.8311071" lon="2.3435905">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Glaci&#xE9;re"/>
+  </node>
+  <node id="235367829" timestamp="2008-01-17T18:12:07+00:00" user="andrewpmk" visible="true" lat="48.8295815" lon="2.3491351"/>
+  <node id="235367830" timestamp="2008-01-17T18:12:07+00:00" user="andrewpmk" visible="true" lat="48.8295476" lon="2.3493497"/>
+  <node id="235367831" timestamp="2008-01-17T18:12:07+00:00" user="andrewpmk" visible="true" lat="48.8295194" lon="2.3495557"/>
+  <node id="235367832" timestamp="2008-01-17T18:12:07+00:00" user="andrewpmk" visible="true" lat="48.8295476" lon="2.349796"/>
+  <node id="235370505" timestamp="2008-03-28T12:17:21+00:00" user="Kelson" visible="true" lat="48.8297736" lon="2.3505342">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Corvisart"/>
+  </node>
+  <node id="235367834" timestamp="2008-01-17T18:12:07+00:00" user="andrewpmk" visible="true" lat="48.8299375" lon="2.3510749"/>
+  <node id="235367835" timestamp="2008-01-17T18:12:07+00:00" user="andrewpmk" visible="true" lat="48.8303217" lon="2.3522851"/>
+  <way id="21840651" timestamp="2008-03-28T12:19:58+00:00" user="Kelson" visible="true">
+    <nd ref="220289387"/>
+    <nd ref="252861383"/>
+    <nd ref="252861382"/>
+    <nd ref="252861381"/>
+    <nd ref="252861380"/>
+    <nd ref="235367826"/>
+    <nd ref="235369898"/>
+    <nd ref="235370184"/>
+    <nd ref="235367829"/>
+    <nd ref="235367830"/>
+    <nd ref="235367831"/>
+    <nd ref="235367832"/>
+    <nd ref="235370505"/>
+    <nd ref="235367834"/>
+    <nd ref="235367835"/>
+    <tag k="created_by" v="Potlatch 0.8"/>
+    <tag k="railway" v="subway"/>
+    <tag k="name" v="M&#xE9;tro 6"/>
+    <tag k="layer" v="1"/>
+    <tag k="operator" v="R&#xE9;gie Autonome des Transports Parisiens"/>
+  </way>
+  <node id="19405766" timestamp="2008-01-26T15:44:00+00:00" user="Utilisateur anonyme" visible="true" lat="48.8834029" lon="2.3473467">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="243494998" timestamp="2008-01-26T15:55:51+00:00" user="Utilisateur anonyme" visible="true" lat="48.8829287" lon="2.3450121">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Anvers"/>
+  </node>
+  <node id="243496024" timestamp="2008-01-26T15:55:51+00:00" user="Utilisateur anonyme" visible="true" lat="48.8823248" lon="2.3374933">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Pigalle"/>
+  </node>
+  <node id="254336753" timestamp="2008-03-27T20:34:22+00:00" user="Mark Jaroski" visible="true" lat="48.8823764" lon="2.3372425">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="243496025" timestamp="2008-01-26T15:55:51+00:00" user="Utilisateur anonyme" visible="true" lat="48.8834198" lon="2.3338283">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Blanche"/>
+  </node>
+  <node id="243496027" timestamp="2008-01-26T15:55:51+00:00" user="Utilisateur anonyme" visible="true" lat="48.8837359" lon="2.3276314">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Place de Clichy"/>
+  </node>
+  <node id="243496028" timestamp="2008-01-26T15:55:51+00:00" user="Utilisateur anonyme" visible="true" lat="48.8823587" lon="2.3221124">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Rome"/>
+  </node>
+  <node id="243496029" timestamp="2008-01-26T17:38:50+00:00" user="Utilisateur anonyme" visible="true" lat="48.8810588" lon="2.3150779">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Villiers"/>
+  </node>
+  <node id="243496030" timestamp="2008-01-26T15:55:51+00:00" user="Utilisateur anonyme" visible="true" lat="48.8805073" lon="2.3091692">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Monceau"/>
+  </node>
+  <node id="243496031" timestamp="2008-01-26T15:55:51+00:00" user="Utilisateur anonyme" visible="true" lat="48.879322" lon="2.3043026">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Courcelles"/>
+  </node>
+  <node id="243496032" timestamp="2008-01-26T15:55:51+00:00" user="Utilisateur anonyme" visible="true" lat="48.8780406" lon="2.2982601">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Ternes"/>
+  </node>
+  <node id="243496033" timestamp="2008-01-26T16:00:08+00:00" user="Utilisateur anonyme" visible="true" lat="48.873756" lon="2.2951702">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Charles de Gaulle &#x2014; &#xC9;toile"/>
+  </node>
+  <node id="243496728" timestamp="2008-01-26T16:00:08+00:00" user="Utilisateur anonyme" visible="true" lat="48.8695953" lon="2.2853941">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Victor Hugo"/>
+  </node>
+  <node id="243496729" timestamp="2008-01-26T16:00:08+00:00" user="Utilisateur anonyme" visible="true" lat="48.8714527" lon="2.2767681">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Porte Dauphine"/>
+  </node>
+  <way id="22699919" timestamp="2008-03-27T20:34:33+00:00" user="Mark Jaroski" visible="true">
+    <nd ref="19405766"/>
+    <nd ref="243494998"/>
+    <nd ref="243496024"/>
+    <nd ref="254336753"/>
+    <nd ref="243496025"/>
+    <nd ref="243496027"/>
+    <nd ref="243496028"/>
+    <nd ref="243496029"/>
+    <nd ref="243496030"/>
+    <nd ref="243496031"/>
+    <nd ref="243496032"/>
+    <nd ref="243496033"/>
+    <nd ref="243496728"/>
+    <nd ref="243496729"/>
+    <tag k="created_by" v="Potlatch 0.6c"/>
+    <tag k="railway" v="subway"/>
+    <tag k="name" v="M&#xE9;tro 2"/>
+    <tag k="layer" v="-2"/>
+    <tag k="operator" v="R&#xE9;gie Autonome des Transports Parisiens"/>
+    <tag k="tunnel" v="yes"/>
+  </way>
+  <node id="235377791" timestamp="2008-01-26T15:38:19+00:00" user="Utilisateur anonyme" visible="true" lat="48.8840858" lon="2.3683237"/>
+  <node id="235377792" timestamp="2008-01-26T15:42:21+00:00" user="Utilisateur anonyme" visible="true" lat="48.8842495" lon="2.3659033">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Stalingrad"/>
+  </node>
+  <node id="254646869" timestamp="2008-03-29T15:39:35+00:00" user="Mark Jaroski" visible="true" lat="48.8843015" lon="2.3648059">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="235377793" timestamp="2008-01-17T18:17:56+00:00" user="andrewpmk" visible="true" lat="48.8843307" lon="2.3642757"/>
+  <node id="235377794" timestamp="2008-01-17T18:17:56+00:00" user="andrewpmk" visible="true" lat="48.8843758" lon="2.3634345"/>
+  <node id="254336770" timestamp="2008-03-27T20:34:23+00:00" user="Mark Jaroski" visible="true" lat="48.8843387" lon="2.3617546">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="243494742" timestamp="2008-01-26T15:42:21+00:00" user="Utilisateur anonyme" visible="true" lat="48.884368" lon="2.3602728">
+    <tag k="railway" v="station"/>
+    <tag k="name" v="La Chapelle"/>
+  </node>
+  <node id="235377795" timestamp="2008-01-17T18:17:56+00:00" user="andrewpmk" visible="true" lat="48.8843589" lon="2.3595807"/>
+  <node id="19405776" timestamp="2007-01-11T18:48:02+00:00" user="jos&#xE9;m" visible="true" lat="48.884373" lon="2.3591337">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="132560459" timestamp="2007-11-25T16:16:32+00:00" user="Skywave" visible="true" lat="48.8843342" lon="2.3585241">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <way id="3839425" timestamp="2008-03-29T15:39:41+00:00" user="Mark Jaroski" visible="true">
+    <nd ref="235377791"/>
+    <nd ref="235377792"/>
+    <nd ref="254646869"/>
+    <nd ref="235377793"/>
+    <nd ref="235377794"/>
+    <nd ref="254336770"/>
+    <nd ref="243494742"/>
+    <nd ref="235377795"/>
+    <nd ref="19405776"/>
+    <nd ref="132560459"/>
+    <tag k="created_by" v="Potlatch 0.6c"/>
+    <tag k="railway" v="subway"/>
+    <tag k="name" v="M&#xE9;tro 2"/>
+    <tag k="layer" v="1"/>
+    <tag k="operator" v="R&#xE9;gie Autonome des Transports Parisiens"/>
+  </way>
+  <node id="27332859" timestamp="2007-04-12T23:30:05+01:00" visible="true" lat="48.885894" lon="2.2567735">
+    <tag k="created_by" v="YahooApplet 1.0"/>
+  </node>
+  <node id="27333361" timestamp="2007-10-11T23:24:32+01:00" user="lluc" visible="true" lat="48.8855801" lon="2.25779">
+    <tag k="created_by" v="YahooApplet 1.0"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Pont de Neuilly"/>
+    <tag k="layer" v="3"/>
+  </node>
+  <node id="27333362" timestamp="2007-04-12T23:32:43+01:00" visible="true" lat="48.8850298" lon="2.2595603">
+    <tag k="created_by" v="YahooApplet 1.0"/>
+  </node>
+  <node id="27362238" timestamp="2007-10-11T23:24:32+01:00" user="lluc" visible="true" lat="48.8811205" lon="2.2717733">
+    <tag k="created_by" v="JOSM"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Les Sablons"/>
+  </node>
+  <node id="27362239" timestamp="2007-10-11T23:24:32+01:00" user="lluc" visible="true" lat="48.8781189" lon="2.2815392">
+    <tag k="created_by" v="JOSM"/>
+    <tag k="railway" v="station"/>
+    <tag k="name" v="Porte Maillot"/>
+    <tag k="layer" v="3"/>
+  </node>
+  <way id="4450280" timestamp="2008-01-27T02:52:38+00:00" user="andrewpmk" visible="true">
+    <nd ref="27332859"/>
+    <nd ref="27333361"/>
+    <nd ref="27333362"/>
+    <nd ref="27362238"/>
+    <nd ref="27362239"/>
+    <tag k="created_by" v="Potlatch 0.6a"/>
+    <tag k="railway" v="subway"/>
+    <tag k="name" v="M&#xE9;tro 1"/>
+    <tag k="layer" v="-2"/>
+    <tag k="operator" v="R&#xE9;gie Autonome des Transports Parisiens"/>
+    <tag k="tunnel" v="yes"/>
   </way>
 </osm>
